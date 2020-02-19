@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="7.527" timestamp="">
+  
+    <testcase name="Submit Regular Payment" classname="test" time="7.527" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;#round-up-zakat&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5098ms)[0m">    at Object.Submit Regular Payment (/Users/tom/Projects/nzf/tests/test.js:38:14)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+
+    
+      <failure message="    at Object.Submit Regular Payment (/Users/tom/Projects/nzf/tests/test.js:38:14)">    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <error message="Timed out while waiting for element &lt;#round-up-zakat&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5098ms)[0m" type="error">    at processTicksAndRejections (internal/process/task_queues.js:94:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .setValue() command on &lt;input[name=&#34;Cash in hand&#34;]&gt;: invalid argument; invalid argument: &#39;text&#39; must be a string
+    (Session info: chrome=80.0.3987.116)
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;invalid argument&#34;,&#34;message&#34;:&#34;invalid argument: &#39;text&#39; must be a string\n  (Session info: chrome=80.0.3987.116)&#34;,&#34;stacktrace&#34;:&#34;0   chromedriver                        0x000000010efe0ec9 chromedriver + 3837641\n1   chromedriver                        0x000000010ef7acc3 chromedriver + 3419331\n2   chromedriver                        0x000000010ecef1ef chromedriver + 750063\n3   chromedriver                        0x000000010ec5731a chromedriver + 127770\n4   chromedriver                        0x000000010ec79112 chromedriver + 266514\n5   chromedriver                        0x000000010ec54f46 chromedriver + 118598\n6   chromedriver                        0x000000010ec7938e chromedriver + 267150\n7   chromedriver                        0x000000010ec85f0b chromedriver + 319243\n8   chromedriver                        0x000000010ec79333 chromedriver + 267059\n9   chromedriver                        0x000000010ec52c3d chromedriver + 109629\n10  chromedriver                        0x000000010ec53bd5 chromedriver + 113621\n11  chromedriver                        0x000000010efa2a5f chromedriver + 3582559\n12  chromedriver                        0x000000010efaf9ea chromedriver + 3635690\n13  chromedriver                        0x000000010efaf787 chromedriver + 3635079\n14  chromedriver                        0x000000010ef863d9 chromedriver + 3466201\n15  chromedriver                        0x000000010efb02a7 chromedriver + 3637927\n16  chromedriver                        0x000000010ef98867 chromedriver + 3541095\n17  chromedriver                        0x000000010efc5ec4 chromedriver + 3727044\n18  chromedriver                        0x000000010efe6f27 chromedriver + 3862311\n19  libsystem_pthread.dylib             0x00007fff68fa9661 _pthread_body + 340\n20  libsystem_pthread.dylib             0x00007fff68fa950d _pthread_body + 0\n21  libsystem_pthread.dylib             0x00007fff68fa8bf9 thread_start + 13\n&#34;},&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;invalid argument: &#39;text&#39; must be a string\n  (Session info: chrome=80.0.3987.116)&#34;,&#34;httpStatusCode&#34;:400}[0m
+[0;90m     (Session info: chrome=80.0.3987.116)
+       at processTicksAndRejections (internal/process/task_queues.js:94:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
